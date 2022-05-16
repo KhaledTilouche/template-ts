@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+}
+
+.clock {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 40rem;
+  height: 40rem;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 175px;
+  width: 400px;
+  height: 4rem;
+  margin: 60px;
+  text-align: center;
+  border-radius: 20%;
+  color: #17d4fe;
+  font-size: 50px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+  background: back;
+  border: 2px solid rgba(34, 209, 221, 0.473);
+  border-radius: 20px;
+  margin: 60px auto;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.first {
+  color: red;
+}
+
+#your-name {
+  background-color: rgb(255, 220, 105);
+  border: 5px solid #444;
+  width: 400px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
